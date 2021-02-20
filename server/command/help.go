@@ -18,6 +18,7 @@ func (c *Command) help(parameters ...string) (string, bool, error) {
 		}
 		resp += getCommandText(desc)
 	}
+
 	return resp, false, nil
 }
 
